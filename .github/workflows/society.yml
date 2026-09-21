@@ -5,6 +5,7 @@ on:
       world_url:
         description: Deployed world HTTPS origin (not localhost or the LLM URL)
         required: true
+        default: 'https://emergence-world.emergence-world.workers.dev/'
         type: string
       turns:
         description: Maximum turns (1 to 12)
