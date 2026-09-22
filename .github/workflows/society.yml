@@ -13,10 +13,10 @@ on:
         default: '3'
         type: string
       mode:
-        description: Use mock to verify world connectivity before inference
+        description: Agent mode; use mock to verify connectivity without inference
         type: choice
         options: [mock, llm]
-        default: mock
+        default: llm
 permissions:
   contents: read
 concurrency:
